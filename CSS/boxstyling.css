@@ -1,0 +1,21 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3e7ca6; 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: moveRight 5s linear infinite;
+  }
+  
+  
+  @keyframes moveRight {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: calc(100% - 100px); 
+    }
+  }
+  
